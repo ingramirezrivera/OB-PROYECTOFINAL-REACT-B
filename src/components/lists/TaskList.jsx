@@ -18,7 +18,7 @@ const Tasklist = () => {
     return (
       <div>
         <h1>
-          Task List
+          Task List App
         </h1>
         <form onSubmit={handleSubmit}>
           <input value={newTask} onChange={handleInputChange} placeholder="New Task" type="text" />
